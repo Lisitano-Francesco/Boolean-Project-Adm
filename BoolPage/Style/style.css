@@ -1,0 +1,90 @@
+/*Set Default DImension*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body Style*/
+body{
+    background-image: url('../MaterialeEsercizioLim/background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 20px 0 0 20px;
+}
+
+/*All Section alignment*/
+.content, .logo, .slogan, .members{
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+}
+/*Content Style*/
+.content{
+    background-color: rgba(61, 61, 61, 0.4);
+    border-radius: 10px;
+    height: 80%;
+}
+
+/*Logo Style*/
+.logo-img{
+    width: 70%;
+    height: 20%;
+    margin: auto;
+    padding: 10px 0 0 25%;
+}
+
+/*Slogan Style*/
+.slogan-lim{
+    color:  #66ff33;
+    text-align: center;
+    font-size: 150%;
+}
+
+/*Action Button Style*/
+.buttons-ctn{
+    text-align: center;
+    background-color: #66ff33;
+    width: 95%;
+    height: 8%;
+    margin: 2px 20px 2px 20px;
+    padding: 10px 0 6px 0;
+}
+
+
+/*Members Style*/
+.member-one{
+    margin-top: 2px;
+    margin-left: 6px;
+}
+
+.member-two, .member-three{
+    margin: 10px;
+}
+.firstMember, .secondMember, .thirdMember,.firstInfo, .secondInfo, .thirdInfo, .infoCharge{
+    color: white;
+}
+
+/*Div Charge Style*/
+.stateCharge1{
+    background-color:#ff6600;
+    height: 5%;
+    width: 45%;
+    border-radius: 2px;
+}
+
+.stateCharge2{
+    background-color:#33cc33;
+    height: 5%;
+    width: 80%;
+    border-radius: 2px;
+}
+
+.stateCharge3{
+    background-color:#ff0000;
+    height: 5%;
+    width: 27%;
+    border-radius: 2px;
+}
+
